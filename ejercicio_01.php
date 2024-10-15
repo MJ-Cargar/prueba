@@ -3,11 +3,11 @@ $numero = rand(1, 10);
 $pares = 0;
 $impares = 0;
 
-if ($numero == 1) {
+/*if ($numero == 1) {
     print "  <h3>$numero dado</h3>";
 } else {
     print "  <h3>$numero dados</h3>";
-}
+}*/
 
 for ($i = 0; $i < $numero; $i++) {
     $dado = rand(1, 6);
